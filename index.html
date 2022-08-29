@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form class = "form">
+        <label for = "projecttitle">Project Title</label>
+        <input type = "text" id = "projecttitle" class = "projecttitle"><br><br>
+        <label for = "discription">Discription</label>
+        <input type = "text" id = "discription" class = "discription"><br><br>
+        <label for = "duedate">Date</label>
+        <input type = "date" id = "duedate" class = "duedate"><br><br>
+        <label for = "priority">Priority</label>
+        <input type = "text" list = "mysugg" id = "priority" class = "priority">
+        <datalist id = "mysugg">
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>            
+        </datalist><br><br>
+        <button class = "btn"> Click me </button>
+        <br>
+    </form>
+    
+    <br>
+    <button type = "button" class = "arrange">Click me to arrange according to date</button>
+    <br>
+    <br>
+    
+    <script src = "main.js"></script>
+    
+</body>
+</html>
